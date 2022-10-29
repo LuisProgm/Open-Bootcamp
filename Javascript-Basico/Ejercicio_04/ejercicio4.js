@@ -1,0 +1,21 @@
+let nombre = "Luis";
+let apellido = "Condori";
+let estudiante = nombre.concat(" ", apellido);
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let numLetras = estudiante.length;
+let first = nombre[0];
+let last = apellido[apellido.length - 1];
+let spacesout = estudiante.replace(" ", "");
+let boolean = estudiante.includes(nombre);
+
+console.log(nombre);
+console.log(apellido);
+console.log(estudiante);
+console.log(estudianteMayus);
+console.log(estudianteMinus);
+console.log(numLetras);
+console.log(first);
+console.log(last);
+console.log(spacesout);
+console.log(boolean);
