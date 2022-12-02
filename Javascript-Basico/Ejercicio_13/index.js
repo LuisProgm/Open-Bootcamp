@@ -1,0 +1,10 @@
+let nombre = "Luis"
+let apellido = "Condori"
+let estudiante = nombre.concat(" ", apellido)
+let estudianteMayus = estudiante.toUpperCase()
+let estudianteMinus = estudiante.toLowerCase()
+let numLetras = estudiante.length
+let first = nombre[0]
+let last = apellido[apellido.length - 1]
+let spacesout = estudiante.replace(" ", "")
+let boolean = estudiante.includes(nombre)
